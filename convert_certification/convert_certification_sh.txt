@@ -1,0 +1,1 @@
+keytool -import -alias YOUR_ALIAS -file tp.bolyartech.com.cer -keypass YOUR_PASS -keystore tp.bolyartech.com.bks -storetype BKS -storepass YOUR_PASS -providerClass org.bouncycastle.jce.provider.BouncyCastleProvider -providerpath ./bcprov-jdk16-1.46.jar
